@@ -1,0 +1,208 @@
+body{
+
+    background-image: url(macbook-pro-pc-laptop-beautiful-artistic-background-wallpaper-5120x2880_55.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+ul {
+    list-style-type: none; 
+}
+
+.form1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px;
+    border-radius: 50px;
+    border-style:outset;
+    
+    border-color:rgb(156, 169, 232);
+}
+
+#searchbox {
+    color: aliceblue;
+    background: transparent;
+    border: none;
+    width: 400px; 
+    height: 30px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px;
+    border-radius: 50px;
+    border-style:outset;
+    
+    border-color:rgb(156, 169, 232);
+    padding: 7px;
+    
+}
+
+
+#search{
+    position: absolute;
+    bottom: -13px;
+    width: 50px;
+    margin: 0px;
+    cursor: pointer;
+    transform: translate(50%, 0%);
+    padding: 10px;
+    border-radius: 50px; ;
+    transition: box-shadow 0.3s ease;
+    
+}
+
+#search:hover {
+   
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.5); 
+  }
+
+#ss{width: 120px;
+    margin: 15px;
+    border-radius: 100px;
+cursor: pointer;}
+#ss1{
+    
+    color: aqua;
+    position: absolute ;
+    left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 10px;
+}
+#ss2{
+    width: 60px;
+    position: absolute ;
+    right: 60px;
+    bottom: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+    
+}
+
+#ss3{
+    width: 60px;
+    position: absolute ;
+    right: 150px;
+    bottom: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+#ss2:hover {
+   
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.5); 
+  }
+  #ss3:hover {
+   
+    box-shadow: 0 0 10px rgba(253, 253, 253, 0.5); 
+  }
+
+.header1{
+    width: 1493px;
+    height: 150px;
+    background-color: rgba(15, 15, 15, 0.8);
+    backdrop-filter:blur(10px) ;
+    color: aliceblue;
+    border-radius: 20px;
+    
+}
+
+.content1{
+    position: absolute;
+    width: 800px;
+    height: 1200px;
+    background-color: rgba(31, 31, 31, 0.8);
+    font-size: 50px;
+    backdrop-filter: blur(10px);
+    color: white;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 500px;
+    border-radius: 50px;
+    padding: 15px;
+}
+
+.write{
+    font-size: 20px;
+}
+.write1{
+    font-size: 20px;
+}
+
+#idk1{
+
+    color: aliceblue;
+    transform: translate(150px, -170px);
+
+}
+#sd{
+
+    width: 120px;
+    margin: 15px;
+    border-radius: 100px;
+cursor: pointer;
+
+}
+#idk2{
+
+    color: aliceblue;
+    transform: translate(150px, -170px);
+
+}
+#sd1{
+
+    width: 120px;
+    margin: 15px;
+    border-radius: 100px;
+cursor: pointer;
+
+}
+#idk3{
+
+    color: aliceblue;
+    transform: translate(150px, -170px);
+
+}
+#link{
+    color: rgb(154, 208, 255);
+    
+}
+
+#bb{
+    transform: translate(170px, -140px);
+
+}
+#bb1{
+    transform: translate(170px, -140px);
+
+}
+#bb2{
+    transform: translate(170px, -140px);
+
+}
+
+.bb1{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.bb2{
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transform: translate(1500%, 105%);
+
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ="describtion" content="our prject">
+    <title>ENCS3320-My First Tiny Webserver</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+<div class="header">
+    <div class="header1">
+        <ul>
+            <li >
+                <form action="display-image" method="get">
+                    <input type="text" id="searchbox" name="imagename" placeholder="Enter image name">
+                    <button class="bb2" type="submit">
+                        <img src="search.png" width="50px" alt="Search">
+                    </button>
+                </form>
+            </li>
+            <li>
+                <h1 id="ss1">Welcome to the computer <br> networks course</h1>
+            </li>
+            <li><img id ="ss2" src="logo-linkedin-logo-icon-png-svg.png" alt="error"></li>
+            <li><img id="ss3" src="email.png" alt="error"></li>
+            <!-- <li><button class="bb2" type="submit">
+                <img src="search.png" width="50px" alt="Search">
+            </button></li> -->
+        </ul>
+    </div>
+</div>
+<div class="content">
+    <div class="content1">
+        <b>The team</b><hr>
+        <div class="write">
+            <img id="ss" src="me1.jpg" alt="error">
+            <h2 id="idk1"> Baraa-Rjoob</h2>
+
+            <!-- Here you will write your information -->
+            <pre id="bb">Second year student</pre>
+        </div>
+        <hr>
+        <div class="write1">
+            <img id="sd" src="m3.jpg" alt="error">
+            <h2 id="idk2"> Baha-Omar</h2>
+
+            <!-- Here you will write your information -->
+            <pre id="bb1">idk year student</pre>
+
+        </div>
+        <hr>
+        <div class="write1">
+            <img id="sd1" src="m2.jpg" alt="error">
+            <h2 id="idk3"> Ahmad altaweel</h2>
+
+            <!-- Here you will write your information -->
+            <pre id="bb2">idk year student</pre>
+
+            <hr>
+
+        </div>
+        <div class="write1">
+            <h2>The w3schools Link :</h2>
+            <a href="https://www.w3schools.com/python/python_syntax.asp" target="_blank" id="link">click here </a>
+        </div>
+    </div>
+</div>
+<div class="buttom"></div>
+
+<script>
+    document.getElementById("search").addEventListener("click", function() {
+        var searchText = document.getElementById("searchbox").value;
+        alert("Searching for: " + searchText);
+    });
+</script>
+
+</body>
+</html>
